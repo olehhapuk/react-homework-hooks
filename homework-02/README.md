@@ -2,7 +2,7 @@
 
 # Критерії приймання
 
-- Створені 2 репозиторії `goiteens-react-hw-02-feedback` и
+- Створені 2 репозиторії `goiteens-react-hw-02-feedback` і
   `goiteens-react-hw-02-phonebook`.
 - При здачі домашньої роботи є два посилання: на вихідні файли та робочі
   сторінки кожного завдання на `Netlify` або `GitHub Pages`.
