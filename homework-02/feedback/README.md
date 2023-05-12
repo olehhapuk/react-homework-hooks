@@ -32,7 +32,7 @@ function countTotalFeedback() {
 ```jsx
 function countPositiveFeedbackPercentage() {
   const sum = countTotalFeedback();
-  const percentage = Math.round(good / sum);
+  const percentage = Math.round(good / sum * 100);
   return percentage;
 }
 ```
