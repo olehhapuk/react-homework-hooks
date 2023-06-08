@@ -32,7 +32,7 @@ function countTotalFeedback() {
 ```jsx
 function countPositiveFeedbackPercentage() {
   const sum = countTotalFeedback();
-  const percentage = Math.round(good / sum);
+  const percentage = Math.round(good / sum * 100);
   return percentage;
 }
 ```
@@ -46,7 +46,7 @@ function countPositiveFeedbackPercentage() {
 - Винеси відображення статистики в окремий компонент
   `<Statistics good={} neutral={} bad={} total={} positivePercentage={}>`.
 - Винеси блок кнопок в компонент
-  `<FeedbackOptions options={} onGoodClick={} onNeutralClick={} onBadClick={}>`.
+  `<FeedbackOptions onGoodClick={} onNeutralClick={} onBadClick={}>`.
 - Створи компонент `<Section title="">`, який рендерить секцію із заголовком і дітей (children). Обгорни кожен із `<Statistics>` і `<FeedbackOptions>` у створений компонент секції.
 
 ## Крок 4
