@@ -3,3 +3,6 @@
 - [Homework 2](./homework-02)
   - [Feedback](./homework-02/feedback)
   - [Phonebook](./homework-02/phonebook)
+- [Homework 5](./homework-05)
+  - [Search](./homework-05/search)
+  - [Load More and Modal](./homework-05/load-more-and-modal)
